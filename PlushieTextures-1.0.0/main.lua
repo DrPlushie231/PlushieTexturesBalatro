@@ -6,7 +6,8 @@
 --- MOD_DESCRIPTION: A texture modpack by Plushie.
 --- VERSION: 1.1.0
 --- DEPENDENCIES: [malverk]
-
+----------------------------------------------
+------------MOD CODE -------------------------
 AltTexture({
   key = 'oaj_jokers',
   set = 'Joker',
@@ -54,3 +55,12 @@ TexturePack({
     text = {'Alternate Legendary Backgrounds'}
   }
 })
+
+if SMODS and SMODS.current_mod then
+  	SMODS.Atlas({
+		key = "modicon",
+		path = "icon.png",
+		px = 32,
+		py = 32,
+	})
+end
