@@ -1,5 +1,6 @@
 # Plushie's Textures
 A Balatro modpack of texture mods I've made.
+This modpack requires Malverk to run!
 
 ## Currently includes:
 
